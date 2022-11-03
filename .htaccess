@@ -1,0 +1,11 @@
+RewriteEngine on
+
+#for remove single file extension in php
+
+#RewriteRule ^index$ index.php [L]
+
+
+#for remove all files extension in php
+
+RewriteCond {REQUEST_FILENAME} !-d
+
