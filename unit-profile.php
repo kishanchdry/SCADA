@@ -269,7 +269,7 @@ $unit=$unit->results()[0];
                        
 
                        if($currentflow){
-                           $currentflow = $currentflow->results()[0]->totalizer;$yesterdayflow=$yesterdayflow->results()[0]->e_totalizer;
+                           $currentflow = $currentflow->results()[0]->totalizer;
                       
                
                         ?>
